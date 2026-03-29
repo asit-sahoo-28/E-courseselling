@@ -1,0 +1,106 @@
+.about {
+  width: 100%;
+  padding: 60px 20px;
+  background: #f9f9ff;
+  font-family: Arial, sans-serif;
+}
+
+/* HERO */
+
+.about-hero {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.about-hero h1 {
+  font-size: 40px;
+  color: #6a38c2;
+  margin-bottom: 20px;
+}
+
+.about-hero p {
+  font-size: 17px;
+  color: #555;
+  line-height: 1.7;
+}
+
+
+/* CARDS SECTION */
+
+.about-cards {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.about-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.about-card:hover {
+  transform: translateY(-6px);
+}
+
+.about-card h3 {
+  color: #6a38c2;
+  margin-bottom: 10px;
+}
+
+.about-card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+/* WHY US */
+
+.why-us {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.why-us h2 {
+  font-size: 32px;
+  color: #6a38c2;
+  margin-bottom: 30px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+}
+
+.why-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.why-box:hover {
+  background: #6a38c2;
+  color: white;
+  transform: translateY(-5px);
+}
+
+
+/* MOBILE */
+
+@media (max-width:768px){
+
+  .about-hero h1{
+    font-size:30px;
+  }
+
+}
