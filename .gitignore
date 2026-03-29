@@ -21,7 +21,7 @@ dist/
 build/
 
 # Upload folder (IMPORTANT for your case)
-# uploads/
+uploads/
 
 
 # Editor files
